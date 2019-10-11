@@ -14,3 +14,9 @@ console.log('Eligible', eligibleForLoan);
 // NOT (!)
 let applicationRefused = !eligibleForLoan;
 console.log('Application Refused', applicationRefused);
+
+let userColor = 'red';
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
